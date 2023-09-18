@@ -1,44 +1,83 @@
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.18.0.21:5000
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.7:8000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:00:41] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:00:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:00:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:root:name 'os' is not defined
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:00:44] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:14:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:14:28] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:14:28] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:14:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:'Response' object has no attribute 'conctent'
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:14:38] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:17:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:17:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:17:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:'Response' object has no attribute 'conctent'
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:17:23] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.18.0.21:5000
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.7:8000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:root:name 'BeautifulSoup' is not defined
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:18] "POST /review HTTP/1.1" 200 -
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:20] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:root:name 'BeautifulSoup' is not defined
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:23] "POST /review HTTP/1.1" 200 -
-INFO:root:name 'BeautifulSoup' is not defined
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:23] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:17:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:17:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:17:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:raw data of image scrap
+INFO:root:[<img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw7G48FnLNCO2gGjMABD7W_0PPI2v9HQts8jXdtqEomxahKG15PaUEOEo2H3U&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVPxSCEIg_M8FyTMpCLU22_alJtuBvdPCyQp5IdnRqkyHGgZJ5LmxApXd7LQ&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJqHzg9DJJPRbcFIrzl2LM_9PxyNSoyVF4mC09eVrcfdfo_5-dY8IApJu0MEM&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEpq5SEV2P212Uba8N9sCx-FABiYb5XeFLl4Gz_yQqqX1rkRWRMUgTQN7cAw&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvvDz1Coxn3FAaBSTuqOzxfFMiRd2azk31NFp-pJoWVFWqOVrREzPJslf3fg&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK3L9xVMRO33pU3RwecMjUkWx-VAfsLFx2LAiyXPcSodnD6C0dbg093hkepw&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYJNMvRuhPEj6_xyfMPs64K_SbRB_v_pUEUCmgXsSYeE9h1xnoBFfPFbCVHOc&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcjMRb1Qlkaiogi909epfiFTfltFG8XtDxqEtOia9FB6CZKK9clQUDeU9c9bQ&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaXgYHPoKBuvadxs588IpYBwl3mUizUosQdEn2cFViabRIpS7jXpJEb41xHw&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF07d2MN7KfwRDyLo-Xf_9NjkpJ0r_DsL9Gm8lFsfa6TgnjYqVq0BbNN_xjQ&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK7xPNYdxptI-KDdoKwVvXB1rQWNKgM34V6xIJC43t-CjZNauogZVFLjtnnxI&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXAX5rtsMl0uTWM1MjJZLjYkl2hZ0R9jYgairKBx9tRf4mKytEUqb5gnQ1SQ&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsLfPRfiGlpaGqKak12XJe_gxQqbqDcjAmDAbJDthvdMASyWrQke6QoJxVKls&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjJuFND39L511iNerVe5P65_xzs8hkKk9cxHZeyYqa8bhDZWIK3jyHNjdRUQ&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOC16lojwwVZNKwYe49beCE4q3cnMxTCLpwEtArDSmauHXy3UHN_mAQ1GA2YE&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFfTa_jHrZ5Qimu0JHpSWf0t9NjOxYvlwi1vGhtnk_EA9e09PPsWPlRoHOjw&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWCE1E3J56YJtcDA8X4qFtwbfOOlXzfGUZOS18kUkF8EHfl702fEVvEE-29BU&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMzpQBVFFNEPe6ucZpFhR6R7-3qhWwBleR-0pARVK93Oi0bGT11_uvszOsU78&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x1QaeP88BCLWNfgvqa4BHe4Em-cQ_peGLYAtlRDW96oiB8YtainFxQzf5Ug&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv9VXnoaurmkLesdiE-XseO5b2g2VRQjySA2XVon39u07bjDeRijXMdWtYIF0&amp;s"/>]
+INFO:root:get the image source URL
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw7G48FnLNCO2gGjMABD7W_0PPI2v9HQts8jXdtqEomxahKG15PaUEOEo2H3U&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:[Errno 2] No such file or directory: 'images/narendramodi_0.jpg'
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:17:47] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.18.0.21:5000
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.7:8000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:52] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:52] "POST /review HTTP/1.1" 200 -
-INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:57] "POST /review HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.9:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET /static/css/main.css HTTP/1.1" 200 -
-INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET /static/css/style.css HTTP/1.1" 200 -
-INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:16] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:25:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:25:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:25:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:raw data of image scrap
+INFO:root:[<img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw7G48FnLNCO2gGjMABD7W_0PPI2v9HQts8jXdtqEomxahKG15PaUEOEo2H3U&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVPxSCEIg_M8FyTMpCLU22_alJtuBvdPCyQp5IdnRqkyHGgZJ5LmxApXd7LQ&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJqHzg9DJJPRbcFIrzl2LM_9PxyNSoyVF4mC09eVrcfdfo_5-dY8IApJu0MEM&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEpq5SEV2P212Uba8N9sCx-FABiYb5XeFLl4Gz_yQqqX1rkRWRMUgTQN7cAw&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvvDz1Coxn3FAaBSTuqOzxfFMiRd2azk31NFp-pJoWVFWqOVrREzPJslf3fg&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK3L9xVMRO33pU3RwecMjUkWx-VAfsLFx2LAiyXPcSodnD6C0dbg093hkepw&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYJNMvRuhPEj6_xyfMPs64K_SbRB_v_pUEUCmgXsSYeE9h1xnoBFfPFbCVHOc&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcjMRb1Qlkaiogi909epfiFTfltFG8XtDxqEtOia9FB6CZKK9clQUDeU9c9bQ&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaXgYHPoKBuvadxs588IpYBwl3mUizUosQdEn2cFViabRIpS7jXpJEb41xHw&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF07d2MN7KfwRDyLo-Xf_9NjkpJ0r_DsL9Gm8lFsfa6TgnjYqVq0BbNN_xjQ&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK7xPNYdxptI-KDdoKwVvXB1rQWNKgM34V6xIJC43t-CjZNauogZVFLjtnnxI&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXAX5rtsMl0uTWM1MjJZLjYkl2hZ0R9jYgairKBx9tRf4mKytEUqb5gnQ1SQ&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjJuFND39L511iNerVe5P65_xzs8hkKk9cxHZeyYqa8bhDZWIK3jyHNjdRUQ&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFfTa_jHrZ5Qimu0JHpSWf0t9NjOxYvlwi1vGhtnk_EA9e09PPsWPlRoHOjw&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOC16lojwwVZNKwYe49beCE4q3cnMxTCLpwEtArDSmauHXy3UHN_mAQ1GA2YE&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsLfPRfiGlpaGqKak12XJe_gxQqbqDcjAmDAbJDthvdMASyWrQke6QoJxVKls&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWCE1E3J56YJtcDA8X4qFtwbfOOlXzfGUZOS18kUkF8EHfl702fEVvEE-29BU&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMzpQBVFFNEPe6ucZpFhR6R7-3qhWwBleR-0pARVK93Oi0bGT11_uvszOsU78&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x1QaeP88BCLWNfgvqa4BHe4Em-cQ_peGLYAtlRDW96oiB8YtainFxQzf5Ug&amp;s"/>, <img alt="" class="DS1iW" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv9VXnoaurmkLesdiE-XseO5b2g2VRQjySA2XVon39u07bjDeRijXMdWtYIF0&amp;s"/>]
+INFO:root:get the image source URL
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw7G48FnLNCO2gGjMABD7W_0PPI2v9HQts8jXdtqEomxahKG15PaUEOEo2H3U&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVPxSCEIg_M8FyTMpCLU22_alJtuBvdPCyQp5IdnRqkyHGgZJ5LmxApXd7LQ&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJqHzg9DJJPRbcFIrzl2LM_9PxyNSoyVF4mC09eVrcfdfo_5-dY8IApJu0MEM&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEpq5SEV2P212Uba8N9sCx-FABiYb5XeFLl4Gz_yQqqX1rkRWRMUgTQN7cAw&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvvDz1Coxn3FAaBSTuqOzxfFMiRd2azk31NFp-pJoWVFWqOVrREzPJslf3fg&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK3L9xVMRO33pU3RwecMjUkWx-VAfsLFx2LAiyXPcSodnD6C0dbg093hkepw&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYJNMvRuhPEj6_xyfMPs64K_SbRB_v_pUEUCmgXsSYeE9h1xnoBFfPFbCVHOc&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcjMRb1Qlkaiogi909epfiFTfltFG8XtDxqEtOia9FB6CZKK9clQUDeU9c9bQ&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaXgYHPoKBuvadxs588IpYBwl3mUizUosQdEn2cFViabRIpS7jXpJEb41xHw&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF07d2MN7KfwRDyLo-Xf_9NjkpJ0r_DsL9Gm8lFsfa6TgnjYqVq0BbNN_xjQ&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK7xPNYdxptI-KDdoKwVvXB1rQWNKgM34V6xIJC43t-CjZNauogZVFLjtnnxI&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXAX5rtsMl0uTWM1MjJZLjYkl2hZ0R9jYgairKBx9tRf4mKytEUqb5gnQ1SQ&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjJuFND39L511iNerVe5P65_xzs8hkKk9cxHZeyYqa8bhDZWIK3jyHNjdRUQ&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFfTa_jHrZ5Qimu0JHpSWf0t9NjOxYvlwi1vGhtnk_EA9e09PPsWPlRoHOjw&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOC16lojwwVZNKwYe49beCE4q3cnMxTCLpwEtArDSmauHXy3UHN_mAQ1GA2YE&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsLfPRfiGlpaGqKak12XJe_gxQqbqDcjAmDAbJDthvdMASyWrQke6QoJxVKls&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWCE1E3J56YJtcDA8X4qFtwbfOOlXzfGUZOS18kUkF8EHfl702fEVvEE-29BU&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMzpQBVFFNEPe6ucZpFhR6R7-3qhWwBleR-0pARVK93Oi0bGT11_uvszOsU78&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x1QaeP88BCLWNfgvqa4BHe4Em-cQ_peGLYAtlRDW96oiB8YtainFxQzf5Ug&s
+INFO:root:send a request to the image URL and save the image
+INFO:root:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv9VXnoaurmkLesdiE-XseO5b2g2VRQjySA2XVon39u07bjDeRijXMdWtYIF0&s
+INFO:root:send a request to the image URL and save the image
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 07:25:44] "POST /review HTTP/1.1" 200 -
